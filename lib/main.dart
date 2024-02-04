@@ -13,7 +13,7 @@ Future<void> _runPreRenderOperations() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  OpenAI.apiKey = "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";
+  OpenAI.apiKey = "#YOUR_API_KEY_HERE#";
 }
 
 main(List<String> args) async {
